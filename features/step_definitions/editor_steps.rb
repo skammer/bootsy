@@ -27,7 +27,7 @@ Then(/^I( don't)? see a link with the option "(.*?)" in the editor toolbar$/) do
 end
 
 Then(/^I see the video iframe properly rendered$/) do
-  expected_embed = '<iframe src="//www.youtube.com/embed/d2QdITRRMHg" allowfullscreen="" frameborder="0" height="315" width="560"></iframe>'
+  expected_embed = '<iframe src="//www.youtube.com/embed/d2QdITRRMHg" allowfullscreen="" width="560" frameborder="0" height="315"></iframe>'
   content =  page.evaluate_script('Bootsy.areas.post_content.editor.getValue()')
 
   expect(content).to include(expected_embed)
