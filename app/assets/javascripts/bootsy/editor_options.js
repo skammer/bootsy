@@ -99,8 +99,7 @@ window.Bootsy.options = {
       "td": {
             "check_attributes": {
                 "rowspan": "numbers",
-                "colspan": "numbers",
-                "style": "alt"
+                "colspan": "numbers"
             },
             "add_class": {
                 "align": "align_text"
