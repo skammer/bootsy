@@ -84,7 +84,11 @@ window.Bootsy.options = {
           "height": "numbers",
           "src": "href"
         }
-      }
+      },
+      "table": 1,
+      "tr": 1,
+      "td": 1,
+      "th": 1
     }
   },
   color: true,
