@@ -85,10 +85,36 @@ window.Bootsy.options = {
           "src": "href"
         }
       },
-      "table": 1,
-      "tr": 1,
-      "td": 1,
-      "th": 1
+      "table": {},
+      "tr": {
+            "add_class": {
+                "align": "align_text"
+            }
+        },
+      "tbody": {
+            "add_class": {
+                "align": "align_text"
+            }
+        },
+      "td": {
+            "check_attributes": {
+                "rowspan": "numbers",
+                "colspan": "numbers",
+                "style": "alt"
+            },
+            "add_class": {
+                "align": "align_text"
+            }
+        },
+        "th": {
+            "check_attributes": {
+                "rowspan": "numbers",
+                "colspan": "numbers"
+            },
+            "add_class": {
+                "align": "align_text"
+            }
+        }
     }
   },
   color: true,
